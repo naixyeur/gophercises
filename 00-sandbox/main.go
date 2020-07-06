@@ -1,9 +1,7 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"os"
 )
 
 func main() {
@@ -14,14 +12,16 @@ func main() {
 	// 	break
 	// }
 
-	scanner := bufio.NewScanner(os.Stdin)
-	scanner.Scan()
-	text := scanner.Text()
-	fmt.Println(text)
+	//scanner := bufio.NewScanner(os.Stdin)
+	//scanner.Scan()
+	//text := scanner.Text()
+	//fmt.Println(text)
 
 	// reader := bufio.NewReader(os.Stdin)
 	// fmt.Print("enter text: ")
 	// text, _ := reader.ReadString('\n')
 	// fmt.Println(text)
+
+	fmt.Println("hello")
 
 }
