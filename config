@@ -1,0 +1,12 @@
+# rueyxianyan (default)
+Host github.com
+	HostName github.com
+	IdentityFile ~/.ssh/rueyxianyan_rsa
+	User remoteusername
+
+
+# naixyeur 
+Host github-naixyeur
+	HostName github.com
+	IdentityFile ~/.ssh/naixyeur_rsa
+	User remoteusername

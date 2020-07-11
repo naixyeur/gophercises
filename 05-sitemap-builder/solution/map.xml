@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlSet xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <value>https://gophercises.com</value>
+  </url>
+  <url>
+    <value>https://gophercises.com/demos/cyoa/home</value>
+  </url>
+  <url>
+    <value>https://gophercises.com/demos/cyoa/debate</value>
+  </url>
+  <url>
+    <value>http://gophercises.com/</value>
+  </url>
+  <url>
+    <value>https://gophercises.com/</value>
+  </url>
+  <url>
+    <value>https://gophercises.com/demos/cyoa/</value>
+  </url>
+  <url>
+    <value>https://gophercises.com/demos/cyoa/new-york</value>
+  </url>
+  <url>
+    <value>https://gophercises.com/demos/cyoa/denver</value>
+  </url>
+</urlSet>

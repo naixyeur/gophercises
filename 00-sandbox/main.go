@@ -2,26 +2,20 @@ package main
 
 import (
 	"fmt"
+	"io"
+	"log"
+	"os"
+	"strings"
 )
 
 func main() {
 
-	// scanner := bufio.NewScanner(os.Stdin)
-	// for scanner.Scan() {
-	// 	fmt.Println(scanner.Text())
-	// 	break
-	// }
+	r := strings.NewReader("some io.Reader stream to be read \n")
 
-	//scanner := bufio.NewScanner(os.Stdin)
-	//scanner.Scan()
-	//text := scanner.Text()
-	//fmt.Println(text)
+	if _, err := io.Copy(os.Stdout, r); err != nil {
+		log.Fatal(err)
+	}
 
-	// reader := bufio.NewReader(os.Stdin)
-	// fmt.Print("enter text: ")
-	// text, _ := reader.ReadString('\n')
-	// fmt.Println(text)
-
-	fmt.Println("hello")
+	fmt.Printf("%T \n", os.Stdout)
 
 }
